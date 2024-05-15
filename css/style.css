@@ -1,0 +1,1165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1348px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+    margin-top: 55px;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-inner img {
+    max-width: 106px;
+    height: 54px;
+}
+
+.header-inner ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.header-inner>ul>li {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.header-inner button {
+    width: 220px;
+    height: 70px;
+    font-weight: 400;
+    font-size: 24px;
+    background-color: #fff;
+    border: 2px solid #263238;
+    border-radius: 4px;
+}
+
+
+/* Learning */
+
+
+
+.learning-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.learning-left-item p {
+    max-width: 569px;
+    font-size: 24px;
+    color: #8F95A5;
+}
+
+.lamp-flex {
+    display: flex;
+    align-items: center;
+}
+
+.learning-left-item button {
+    max-width: 438px;
+    height: 118px;
+    background-color: #263238;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 36px;
+}
+
+.learning-right-item {
+    max-width: 661px;
+    max-height: 661px;
+    /* background-image: url(../img/Learning\ languages-bro\ 1.png); */
+}
+
+.learning-right-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.lamp-flex h1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+    max-width: 386px;
+}
+
+.lamp-flex img {
+    width: 85.24px;
+    height: 85.24px;
+}
+
+
+
+
+
+/* Skills */
+
+.skills {
+    text-align: center;
+}
+
+.skills h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+
+}
+
+.skills-inner-grid {
+    display: grid;
+    grid-template-areas:
+        "one two three"
+        "one four four";
+    justify-content: space-evenly;
+    text-align: left;
+    gap: 18px;
+    align-items: stretch;
+}
+
+
+
+.skills-item {
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skils-img-top img {
+    max-width: 100%;
+}
+
+.skills-title-h3 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+    margin: 0;
+}
+
+.skills-p-text {
+    font-size: 16px;
+    color: #8F95A5;
+}
+
+.skills-speaking .speaking-button {
+    width: 230px;
+}
+
+.skills-item-bottom .speaking-button {
+    margin-top: 72px;
+
+}
+
+.skills-button {
+    width: 218px;
+    height: 60px;
+    background-color: #263238;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 4px;
+}
+
+.skills-speaking {
+    grid-area: one;
+    justify-content: center;
+}
+
+
+.skills-writing {
+    grid-area: two;
+}
+
+.skills-reading {
+    grid-area: three;
+}
+
+.skills-listening {
+    grid-area: four;
+    flex-direction: row;
+}
+
+.listening-img-box {
+    order: 1;
+}
+
+/* About us */
+
+.about-us {
+    margin-top: 100px;
+}
+
+.about-us-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us-h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+}
+
+.about-us-text {
+    font-size: 20px;
+    color: #8F95A5;
+    max-width: 635px;
+}
+
+.about-us-numbers-flex {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.about-us-numbers-flex h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #2A3246;
+    margin: 0;
+}
+
+.about-us-numbers-flex p {
+    color: #8F95A5;
+    font-size: 20px;
+    margin: 0;
+}
+
+.about-us-right-card {
+    background-color: #F5F5F5;
+    margin-top: 10px;
+    min-height: 500px;
+}
+
+/* PRICING */
+
+
+.pricing {
+    text-align: center;
+}
+
+.pricing-inner-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing-main-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+}
+
+.pricing-item {
+    max-width: 420px;
+}
+
+.pricing-main-img {
+    max-width: 390px;
+    max-height: 390px;
+}
+
+.pricing-h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.pricing-p {
+    text-align: left;
+    font-size: 20px;
+    min-height: 90px;
+}
+
+.price-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+}
+
+.price-box h2 {
+    font-size: 30px;
+    color: #263238;
+}
+
+.price-box p {
+    font-size: 18px;
+    color: #546269;
+}
+
+/* CONTACTS */
+
+.contacts {
+    margin-top: 150px;
+}
+
+.contacts-dnone {
+    display: none;
+}
+
+.contacts-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 111px;
+}
+
+.contacts-img-left img {
+    max-width: 477px;
+    max-height: 429px;
+}
+
+.contacts-right-item h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+.contacts-right-item p {
+    font-size: 20px;
+    color: #8F95A5;
+}
+
+.contacts-input-box input {
+    width: 450px;
+    height: 80px;
+    border: 1px solid #8F95A5;
+    border-radius: 5px;
+    color: #8F95A5;
+    padding-left: 33px;
+    font-size: 16px;
+}
+
+.contacts-input-box button {
+    width: 264px;
+    height: 80px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #263238;
+    font-size: 20px;
+}
+
+/* FOOTER */
+
+.footer {
+    padding-top: 131px;
+    margin-bottom: 64px;
+}
+
+.line {
+    height: 3px;
+    background-color: #C4C4C4;
+    margin-bottom: 31px;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-inner img {
+    width: 106px;
+    height: 54px;
+}
+
+.footer-list ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #8F95A5;
+    gap: 30px;
+}
+
+.footer-list>ul>li:first-child {
+    list-style-type: none;
+}
+
+@media screen and (max-width: 1400px) {
+    .container {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    .header-inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .learning-right-item {
+        max-width: 460px;
+    }
+
+    .lamp-flex h1 {
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 64px;
+    }
+
+    .header-inner img {
+        max-width: 89px;
+        height: 45px;
+    }
+
+    .header-inner>ul>li {
+        font-size: 16px;
+    }
+
+    .header-inner button {
+        width: 160px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .learning-left-item p {
+        font-size: 20px;
+    }
+
+    .learning-left-item button {
+        max-width: 292px;
+        height: 80px;
+        font-size: 24px;
+    }
+
+    .skills h2 {
+        font-size: 36px;
+    }
+
+    .skills-inner-grid {
+        gap: 13px;
+    }
+
+    .skills-title-h3 {
+        font-size: 22px;
+    }
+
+    .skills-p-text {
+        font-size: 14px;
+    }
+
+    .skills-speaking .speaking-button {
+        width: 230px;
+    }
+
+    .skills-button {
+        max-width: 196px;
+        max-height: 57px;
+        font-size: 18px;
+    }
+
+    .skills-speaking {
+        justify-content: center;
+    }
+
+
+    /* ABOUT */
+
+    .about-us-h2 {
+        font-size: 36px;
+    }
+
+    .about-us-text {
+        font-size: 16px;
+    }
+
+    .about-us-numbers-flex h2 {
+        font-size: 30px;
+    }
+
+    .about-us-numbers-flex p {
+        font-size: 13px;
+    }
+
+    /* PRICING */
+
+
+    .pricing-main-title {
+        font-size: 30px;
+    }
+
+    .pricing-h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .pricing-p {
+        text-align: left;
+        font-size: 14px;
+        min-height: 150px;
+    }
+
+    .price-box h2 {
+        font-size: 22px;
+    }
+
+    .price-box p {
+        font-size: 16px;
+    }
+
+    .pricing-main-img {
+        max-width: 219px;
+        min-height: 219px;
+    }
+
+    .pricing-main-img img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .pricing-item {
+        max-width: 225px;
+    }
+
+    .pricing-item-2 .pricing-h2 {
+        max-width: 185px;
+    }
+
+    .pricing-item-3 .pricing-h3 {
+        max-width: 161px;
+    }
+
+    /* CONTACTS */
+
+    .contacts-inner {
+        gap: 20px;
+    }
+
+    .contacts-img-left img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .contacts-right-item h2 {
+        font-size: 36px;
+    }
+
+    .contacts-right-item p {
+        font-size: 16px;
+    }
+
+    .contacts-input-box input {
+        max-width: 323px;
+        max-height: 60px;
+        font-size: 14px;
+    }
+
+    .contacts-input-box button {
+        max-width: 193px;
+        max-height: 60px;
+        font-size: 16px;
+    }
+
+
+    /* FOOTER */
+
+    .footer-inner img {
+        max-width: 89px;
+        max-height: 45px;
+    }
+
+    .footer-list ul {
+        font-size: 16px;
+        gap: 5px;
+    }
+
+    .footer {
+        padding-top: 100px;
+        margin-bottom: 24px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    .header {
+        margin-top: 55px;
+    }
+
+    .header-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-inner img {
+        max-width: 89px;
+        max-height: 45px;
+    }
+
+    .header-inner ul,
+    .header-inner button {
+        display: none;
+    }
+
+    .header-inner button::after {
+        content: "...";
+        width: 30px;
+        height: 17px;
+        background-image: url(../img/menu-img\ 3-line.png);
+    }
+
+    /* learning */
+    .learning-inner {
+        display: flex;
+        justify-content: center;
+    }
+
+    .learning-left-item p {
+        max-width: 569px;
+        font-size: 16px;
+        color: #8F95A5;
+    }
+
+    .lamp-flex {
+        display: flex;
+        align-items: center;
+    }
+
+    .learning-left-item button {
+        width: 236px;
+        height: 65px;
+        font-size: 18px;
+    }
+
+
+    .lamp-flex h1 {
+        font-size: 36px;
+        line-height: 45px;
+        max-width: 230px;
+    }
+
+    .lamp-flex img {
+        width: 55px;
+        height: 55px;
+    }
+
+    /* Skills */
+
+    .skills h2 {
+        font-size: 30px;
+    }
+
+    .skills-item {
+        max-width: 100%;
+    }
+
+    .skills-inner-grid {
+        gap: 9px;
+    }
+
+    .skills-title-h3 {
+        font-size: 20px;
+    }
+
+    .skills-p-text {
+        font-size: 13px;
+    }
+
+    .skills-speaking .speaking-button {
+        width: 178px;
+    }
+
+    .skills-item-bottom .speaking-button {
+        margin-top: 208px;
+
+    }
+
+    .skills-button {
+        width: 178px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .skills-listening {
+        align-items: center;
+    }
+
+    .listening-img-box img {
+        max-width: 228px;
+    }
+
+    /* ABOUT */
+    .about-us {
+        margin-top: 52px;
+    }
+
+    .about-us-h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .about-us-inner {
+        min-height: 344px;
+        margin: 0;
+    }
+
+    .about-us-text {
+        font-size: 14px;
+        margin: 0;
+        max-width: 380px;
+    }
+
+    .about-us-numbers-flex h2 {
+        font-size: 22px;
+
+    }
+
+    .about-us-numbers-flex p {
+        font-size: 13px;
+        margin: 0;
+    }
+
+    .about-us-right-card {
+        max-width: 295px;
+        max-height: 295px;
+        background-color: #ffffff;
+    }
+
+    .about-us-right-card img {
+        max-width: 295px;
+        max-height: 295px;
+    }
+
+    /* PRICING */
+
+
+    .pricing-main-title {
+        font-size: 30px;
+    }
+
+    .pricing-item {
+        max-width: 230px;
+    }
+
+    .pricing-main-img {
+        max-width: 219px;
+        max-height: 219px;
+    }
+
+    .pricing-h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .pricing-p {
+        font-size: 14px;
+        min-height: 100px;
+    }
+
+    .pricing-item-3 .price-box {
+        margin-top: 43px;
+    }
+
+    .price-box h2 {
+        font-size: 22px;
+    }
+
+    .price-box p {
+        font-size: 16px;
+    }
+
+
+    /* CONTACTS */
+
+    .contacts {
+        margin-top: 60px;
+    }
+
+    .contacts-inner {
+        gap: 38px;
+    }
+
+    .contacts-img-left img {
+        max-width: 233px;
+        max-height: 210px;
+    }
+
+    .contacts-right-item h2 {
+        font-size: 30px;
+    }
+
+    .contacts-right-item p {
+        font-size: 14px;
+    }
+
+    .contacts-input-box input {
+        width: 283px;
+        height: 50px;
+        font-size: 12px;
+    }
+
+    .contacts-input-box button {
+        width: 145px;
+        height: 50px;
+        border-radius: 5px;
+        color: #ffffff;
+        background-color: #263238;
+        font-size: 13px;
+    }
+
+    /* FOOTER */
+
+    .footer {
+        padding-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .line {
+        height: 2px;
+        background-color: #C4C4C4;
+        margin-bottom: 31px;
+    }
+
+    .footer-inner img {
+        width: 89px;
+        height: 45px;
+    }
+
+    .footer-list ul {
+        font-size: 13px;
+        gap: 20px;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    .container {
+        max-width: 510px;
+        margin: 0 auto;
+    }
+
+    /* HEADER */
+
+    .header-inner>ul,
+    .header-inner>button {
+        display: none;
+    }
+
+    .learning-inner {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .learning-left-item p {
+        max-width: 500px;
+        font-size: 16px;
+    }
+
+    .lamp-flex {
+        display: inline-block;
+    }
+
+    .learning-left-item button {
+        max-width: 305px;
+        min-height: 75px;
+        font-size: 18px;
+    }
+
+    .learning-right-item {
+        max-width: 424px;
+        max-height: 424px;
+        margin: 0 auto;
+    }
+
+
+    .lamp-flex h1 {
+        font-size: 34px;
+        line-height: 45px;
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .lamp-flex img {
+        display: none;
+    }
+
+    /* Skills */
+
+    .skills h2 {
+        font-size: 30px;
+    }
+
+    .skills-inner-grid {
+        grid-template-areas:
+            "one two"
+            "three four";
+        gap: 30px;
+
+    }
+
+    .skills-item {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .skils-img-top img {
+        max-width: 100%;
+    }
+
+    .skills-title-h3 {
+        font-size: 30px;
+        line-height: 80px;
+    }
+
+    .skills-p-text {
+        font-size: 16px;
+        color: #8F95A5;
+    }
+
+    .skills-speaking .speaking-button {
+        width: 200px;
+    }
+
+    .skills-item-bottom .speaking-button {
+        margin-top: 72px;
+
+    }
+
+    .skills-button {
+        width: 200px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .skills-writing .skills-button {
+        margin-top: 240px;
+    }
+
+
+    .skills-writing {
+        justify-content: flex-start;
+    }
+
+    .skills-reading {
+        grid-area: three;
+    }
+
+    .skills-listening {
+        flex-direction: column;
+    }
+
+    .listening-img-box {
+        order: 0;
+    }
+
+
+
+    /* About us */
+
+    .about-us {
+        margin-top: 50px;
+    }
+
+    .about-us-inner {
+        display: flex;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .about-us-h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .about-us-text {
+        font-size: 14px;
+        max-width: 510px;
+    }
+
+
+    .about-us-numbers-flex h2 {
+        font-size: 24px;
+    }
+
+    .about-us-numbers-flex p {
+        font-size: 14px;
+    }
+
+    .about-us-right-card {
+        max-width: 352px;
+        min-height: 352px;
+        margin: 0 auto;
+    }
+
+
+    /* PRICING */
+
+
+    .pricing-main-title {
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .pricing-inner-flex {
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .pricing-h2 {
+        font-size: 24px;
+        line-height: 28px;
+        max-width: 100%;
+    }
+
+    .pricing-p {
+        text-align: center;
+        font-size: 14px;
+        min-height: 42px;
+        max-width: 400px;
+    }
+
+    .price-box h2 {
+        font-size: 22px;
+    }
+
+    .price-box p {
+        font-size: 16px;
+    }
+
+    .pricing-main-img {
+        max-width: 314px;
+        max-height: 291px;
+        min-height: 241px;
+        margin: 0 auto;
+    }
+
+    .pricing-main-img img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .pricing-item {
+        max-width: 350px;
+    }
+
+    .pricing-item-2 .pricing-h2 {
+        max-width: 350px;
+    }
+
+    .pricing-item-3 .pricing-h3 {
+        max-width: 161px;
+    }
+
+    .price-box {
+        width: 205px;
+        height: 45px;
+        margin: 15px auto;
+    }
+
+    /* CONTACTS */
+
+
+    .contacts-inner {
+        display: flex;
+        flex-direction: column;
+        gap: 34px;
+        text-align: center;
+    }
+
+
+    .contacts-dnone {
+        display: block;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .contacts-img-left img {
+        max-width: 358px;
+        max-height: 322px;
+    }
+
+    .contacts-right-item h2 {
+        display: none;
+    }
+
+    .contacts-right-item p {
+        font-size: 16px;
+        max-width: 490px;
+    }
+
+    .contacts-input-box input {
+        width: 300px;
+        height: 60px;
+        font-size: 13px;
+    }
+
+    .contacts-input-box button {
+        width: 193px;
+        height: 60px;
+    }
+
+    .footer-list ul {
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .footer-inner {
+        gap: 104px;
+        max-width: 550px;
+        align-items: center;
+    }
+
+}
+
+/* @media screen and (max-width: 1400px) {
+    .container {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+     .header-inner ul,
+    .header-inner button {
+        display: none;
+    }
+} */
